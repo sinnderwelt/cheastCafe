@@ -1,0 +1,73 @@
+.team .container {
+	min-width: 90%;
+}
+.team img {
+	position: relative;
+	object-fit: cover;
+	height: 50%;
+	width: 100%;
+}
+.team h3 {
+	text-align: center;
+	font-weight: 900;
+	padding: 0 0 60px 0;
+	margin: 0;
+	color: #000;
+	font-size: 60px;
+	font-family: arial;
+}
+.team h4 {
+	font-weight: 800;
+	font-size: 40px;
+	color: #000;
+	font-family: arial;
+	margin-top: 35px; 
+}
+.team h5 {
+	font-size: 15px;
+	font-weight: bolder;
+	color: #878a8d;
+	line-height: 30px;
+	font-family: arial;
+	margin-top: 20px;
+	margin-bottom: 25px; 
+}
+.team p {
+	font-family: Montserrat;
+	color: #878a8d;
+	margin-bottom: 25px;
+	font-size: 17px;
+    line-height: 25px;
+}
+.team button {
+	/*background: #fff;*/
+	outline: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.team .icon {
+	display: flex;
+	flex-direction: row;
+}
+.team .icon button {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 70px;
+    height: 70px;
+    background: #5725cb;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.team .icon button i {
+	color: #fff;
+	font-size: 24px;
+}
+.team .icon button:nth-child(2){
+	background: #1DD5CA;
+}
+.team .icon button:nth-child(3){
+	background: #FFC94A;
+}

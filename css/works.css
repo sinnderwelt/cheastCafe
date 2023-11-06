@@ -1,0 +1,91 @@
+.works .container {
+	min-width: 90%;
+} 
+.works .card{
+	border: 0;
+	background: transparent;
+}
+.works h3 {
+	padding: 0 0 70px 10px;
+	margin: 0;
+	text-align: center;
+	font-weight: 900;
+	font-size: 72px;
+	font-family: arial;
+	color: #000;
+}
+.works img {
+	position: relative;
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+}
+.works h5 {
+	font-weight: bolder;
+	padding: 25px 0 0 0;
+	font-size: 30px;
+	font-family: arial;
+	color: #000;
+}
+.works p {
+	font-size: 17px;
+	line-height: 25px;
+	padding: 10px 0;
+	font-family: Montserrat;
+}
+.works a {
+	font-weight: bolder;
+	padding: 20px 0 0 0;
+	font-size: 14px;
+	color: #000!important;
+	text-decoration: none!important;
+	font-family: arial;
+}
+.works .icon-chess {
+	position: absolute;
+	width: 85px;
+    height: 85px;
+    top: 20px;
+    right: 36px;
+    background: #5725cb;
+    border-radius: 20px;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.works .col-md-4:nth-child(2) .icon-chess {
+	background: #1dd5ca;
+}
+.works .col-md-4:nth-child(3) .icon-chess {
+	background: #f22f2f;
+}
+.works .icon {
+	font-size: 45px;
+	font-family: arial;
+	font-weight: 400;
+	line-height: 14px;
+	color: #fff;
+	margin: 0;
+}
+.works .card a {
+	position: relative;
+	padding-bottom: 15px;
+	display: inline-block;
+}
+.works .card a::after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 4px;
+	background: #5725cb;
+	bottom: 0;
+	left: 0;
+}
+.works .col-md-4:nth-child(3) a::after{
+	background: #1DD5CA;
+}
+.works .col-md-4:nth-child(4) a::after{
+	background: #F22F2F;
+}

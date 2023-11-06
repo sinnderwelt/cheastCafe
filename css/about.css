@@ -1,0 +1,81 @@
+.about .container{
+	min-width: 90%;
+	display: flex;
+}
+.about .image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
+.about {
+	position: relative;
+}
+.about img {
+	width: 85%;
+	height: auto;
+	margin-right: auto;
+}
+.about h5 {
+	color: #000;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: arial;
+	margin: 0 0 15px 0;
+}
+.about h2 {
+	color: #000;
+	font-weight: 800;
+	font-size: 55px;
+	font-family: arial;
+	margin-bottom: 40px;
+}
+.about p {
+	padding: 10px 0;
+	font-size: 20px;
+	color: #929597;
+	line-height: 1.72em;
+	font-family: Montserrat;
+}
+.about p:nth-child(4){
+	margin-bottom: 35px;
+}
+.about a {
+	position: relative;
+	font-weight: 700;
+	color: #000;
+	font-family: Montserrat;
+	white-space: nowrap;
+}
+.about a::after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	background: #ffc94b;
+	bottom: -5px;
+	left: 0;
+}
+.about span {
+	color: #000;
+}
+.about span:hover {
+	color: #ffc94b;
+}
+.about button {
+	background: #F23030;
+	text-align: center;
+	color: #fff;
+	padding: 28px 42px;
+	font-weight: bolder;
+	font-size: 16px;
+	font-family: arial;
+	border: 0;
+}
+.about button:hover{
+	background: black;
+}

@@ -1,0 +1,40 @@
+.newsletter .container {
+	word-break: break-all;
+	min-width: 80%;
+	padding: 60px 40px;
+	display: flex;
+	background: #1ed5ca;
+}
+.newsletter .form-control {
+	height: 70px;
+	width: 100%;
+	border: 5px solid #f0f2f5;
+	border-radius: 0;
+}
+.newsletter h2 {
+	font-weight: 900;
+	margin: 0;
+	font-size: 45px;
+	font-family: arial;
+	color: #13111d;
+	word-break: keep-all;
+}
+.newsletter .form-check-label {
+	font-size: 16px;
+	font-weight: 500;
+	color: #478482;
+}
+.newsletter button {
+	position: relative;
+	height: 70px;
+	padding: 0 55px;
+	font-size: 15px;
+	font-weight: 900;
+	background: #13111d;
+	color: #fff;
+	white-space: nowrap;
+}
+.newsletter button:hover {
+	background-color: #5725cb;
+	color: #fff;
+}

@@ -1,0 +1,97 @@
+.cafemenu .col-md-6{
+	padding: 0;
+}
+.menu-container{
+	position: relative;
+	background: #ffc94b;
+	padding: 110px 80px;
+}
+.cafemenu img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.marker {
+	background: #000;
+	float: right;
+	padding: 30px;
+	margin: -110px -80px;
+}
+.marker p{
+	color: #fff;
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: Montserrat;
+	margin-bottom: 0;
+}
+.ourfood-text {
+	padding: 20px 0;
+	line-height: 30px;
+	font-size: 22px;
+	font-family: Montserrat;
+}
+.categories {
+	margin: 0 0 35px 0;
+	padding: 0 0 15px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+	display: flex;
+	flex-wrap: wrap;
+}
+.categories> li{
+	list-style: none;
+}
+.categories> li .name{
+	font-size: 18px;
+	font-weight: 450;
+	border: 4px solid #fff;
+	padding: 15px;
+	font-family: Montserrat;
+	margin: 0 12px 12px 0;
+}
+.categories> li.active .name{
+	background: #fff;
+}
+.ourfood-menu{
+	list-style: none;
+	padding: 0;
+}
+.ourfood-menu li{
+	position: relative;
+	padding-bottom: 10px;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+.ourfood-menu h5{
+	font-weight: 600;
+	margin: 25px 0 0 0;
+	color: #000;
+	font-size: 20px;
+	font-family: arial;
+}
+.ourfood-menu-main {
+	margin: 5px 0 20px 0;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: arial;
+}
+.cafemenu h3 {
+	font-size: 57px;
+	font-weight: 900;
+	color: #000;
+}
+.ourfood-menu-price {
+	text-align: right;
+	margin: -25px 0 0 0; 
+	font-size: 20px;
+	font-family: arial;
+}
+.categories> li .sub-categories{
+	display: none;
+}
+.sub-categories{
+	padding: 0;
+	list-style: none;
+	margin: 20px 0;
+}
+

@@ -1,0 +1,139 @@
+header{
+	z-index: 101;
+	position: absolute;
+	width: 100%;
+	padding: 20px;
+}
+header .container{
+	display: flex;
+	}
+.logo{
+	padding: 0;
+}
+.logo img {
+	width: 100px;
+	height: auto;
+}
+header span {
+	color: #F1C65B;
+}
+.button-container{
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+header button {
+	background: #5824CD;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.7px;
+	padding: 1.5em 2.8em;
+	font-family: arial;
+	text-align: center;
+	box-shadow: none;
+	outline: 0;
+	border: 0;
+}
+header button:hover {
+	color: #000;
+	background: #fff;
+}
+.topmenu {
+	margin-left: auto;	
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+}
+
+.topmenu > li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	/*border: 3px solid white;*/
+	padding: 10px;
+	color: #fff;
+	font-family: Montserrat;
+	margin: 0 20px;
+	cursor: pointer;
+}
+.submenu {
+	position: absolute;
+	list-style: none;
+	top: 100%;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+.submenu > li {
+	background: #12101C;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100%;
+	margin: 0px 0 0 -39px;
+	padding: 15px 120px 15px 50px;
+}
+.topmenu > li:hover {
+	color: #F1C65B;
+}
+.submenu > li:hover {
+	color: #F1C65B;
+}
+.submenu2 > li:hover {
+	color: #F1C65B;
+}
+.submenu2 {
+	background: #12101C;
+	color: #fff;
+	position: absolute;
+	list-style: none;
+	top: auto;
+	left: 370px;
+	transition: .3s linear;
+	visibility: hidden;
+	opacity: 0;
+	width: 100%;
+	margin: -30px 0 0 -39px;
+	padding: 10px 120px 10px 50px;
+}
+.submenu2 > li{
+	padding: 10px 120px 10px 50px;
+	width: 100%;
+}
+.topmenu li:hover .submenu {	
+	visibility: visible;
+	opacity: 1;
+}
+.submenu li:hover .submenu2 {	
+	visibility: visible;
+	opacity: 1;
+}
+.menu-page .topmenu {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0;
+}
+.menu-page .topmenu > li {
+	width: 100%;
+}
+.menu-page .topmenu > li:hover {
+	color: #F1C65B;
+}
+.menu-page {
+	padding-top: 130px;
+}
+.menu-page .submenu{
+	display: none;
+}
+.menu-page .submenu > li:hover {
+	color: #F1C65B;
+}
+.menu-page .submenu2 > li:hover {
+	color: #F1C65B;
+}
+
+
+

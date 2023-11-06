@@ -1,0 +1,158 @@
+.gamejournal .container {
+	min-width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.gamejournal .col-md-8 {
+	padding: 0 80px;
+}
+.gamejournal .col-md-4 {
+	display: block;
+	background-color: #5725cb;
+}	
+.news-container{
+	position: relative;
+	width: 100%;
+	display: flex;
+}
+.news-container .card{
+	border: 0;
+	background: transparent;
+}
+.news-container .card .card-header, .news-container .card .card-body{
+	position: relative;
+	padding: 0;
+}
+.news-container .card .card-header img{
+	position: relative;
+	width: 100%;
+	height: 170px;
+	object-fit: cover;
+}
+.gamejournal h2 {
+	margin: 100px 0 20px 0;
+	padding-left: 10px;
+	font-size: 32px;
+	color: #12101C;
+	font-weight: 900;
+}
+.gamejournal .news-header {
+	position: relative;
+	display: block;
+	font-size: 22px; /* Паддинг от ссылки будет больше вниз */
+	color: #12101C;
+	padding-bottom: 10px;
+	font-weight: 700;
+	font-family: arial;
+}
+.gamejournal .news-header:hover {
+	color: #5725cb;
+	text-decoration: none;
+}
+.gamejournal .continue {
+	padding: 0 0 120px 0;
+}
+.gamejournal .continue a {
+	position: absolute;
+	/*font-weight: 900;*/ /* Не работает. Почему? */
+	display: block;
+	font-family: arial;
+}
+.gamejournal .continue a:hover {
+	color: #5725cb;
+}
+.gamejournal .continue a::after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 4px;
+	background: #f23030;
+	bottom: 37px;
+	left: 0;
+}
+.gamejournal p{
+	padding-right: 10px;
+	color: rgba(0, 0, 0, .8);
+	line-height: 28px;
+	font-size: 15px;
+	font-family: Montserrat; /* Дать ссылку на безопасные шрифты */
+	margin-bottom: 20px;
+}
+.gamejournal .icon p{
+	padding-right: 10px;
+	color: #878a8d;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: Montserrat; /* Дать ссылку на безопасные шрифты */
+	margin-bottom: 0;
+}
+.gamejournal .icon {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+.gamejournal i {
+	padding: 0 5px;
+	color: #000;
+}
+.gamejournal .continue a {
+	display: block;
+	color: #12101C;
+	font-size: 14px;
+	font-weight: 900;
+	padding-bottom: 50px;
+}
+.gamejournal button {
+	background-color: #12101D;
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 15px;
+	text-align: center;
+}
+.gamejournal button:hover {
+	background-color: #fff;
+	color: #000;
+}
+.gamejournal .rules {
+	position: absolute;
+	width: 120px;
+    height: 35px;
+    background: #FFC94A;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gamejournal .rules p {
+	font-size: 14px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 14px;
+	color: #fff;
+	margin: 0;
+	padding: 10px 14px 9px;
+}
+.facebook-follow{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.facebook-follow h3{
+	color: #fff;
+	font-size: 42px;
+	font-family: arial;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.facebook-follow button{
+	position: relative;
+	padding: 21px 14px;
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}
